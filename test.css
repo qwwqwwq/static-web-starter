@@ -95,3 +95,7 @@ article{
 article footer{ /*affects footer in the article only. if it's sololy footer, it changes ALL footer*/
 	text-align:right;
 }
+
+.centered {
+    margin-left: 50%;
+}
