@@ -19,15 +19,17 @@ body{
 	width: 100%;
 	display:-webkit-box;
 	-webkit-box-pack:center;
+	background-image: url(http://www.drodd.com/images10/space-wallpaper13.jpg);
 }
 #box{
 	display:block;
-	width:1000px;
+	width:1500px;
 	margin:50px auto;
 	text-align:left;
 	padding:15px;
 	border:1px solid red;
-	background:white;
+	background: gray;
+	opacity:0.8;
 	display:-webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-box-flex: 1;
@@ -36,7 +38,7 @@ body{
 }
 /* Center your website with some extra white space */
 #big_wrapper{
-	max-width: 1000px;
+	max-width: 1500px;
 	border: 1px solid black;
 	margin: 20px 0px;
 	display:-webkit-box;
@@ -76,7 +78,7 @@ body{
 	width:220px;
 	margin:20px 0px;
 	padding:30px;
-	background: gray;
+	background: url(http://p1.pichost.me/i/17/1396938.jpg) no-repeat center, fixed;
 }
 #the_footer{
 	text-align:center;
@@ -87,11 +89,16 @@ body{
 	border:1px solid green;
 }
 article{
-	background:gray;
+	background: url(http://www.funchap.com/wp-content/uploads/2014/01/abstract-art-background.jpg) no-repeat, fixed;
+	background-size: 100%;
+	background-position: center;
 	border:1px solid green;
 	padding: 20px;
 	margin-bottom:15px; /*The spacing between the 2 articles top & bottom*/
 }
 article footer{ /*affects footer in the article only. if it's sololy footer, it changes ALL footer*/
 	text-align:right;
+}
+.centered{
+	margin-left: 50%;
 }
