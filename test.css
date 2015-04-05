@@ -54,14 +54,23 @@ body{
 }
 #top_menu{
 	border:2px solid black;	
-	background:#F05C63;
+	background:#66FF99;
 	color:white;
 }
-#top_menu li{ /* make sure to set which one you're changing (links - li) */
-	display:inline-block; /*makes the text appear left to right (usually for menu links) */
-	list-style:none; /* remove bullet points or symbols at the side */
-	padding:5px;
-	font: bold 14px tahoma;
+#top_menu{
+	width:750px;
+	height:40px;
+	margin:0 auto;
+	list-style:none;
+}
+#top_menu li{
+	float:left;
+}
+#top_menu a{
+	display:block;
+	text-align:center;
+	width:150px; /* fixed width */
+	text-decoration:none; 
 }
 #new_div{
 	display:-webkit-box;
